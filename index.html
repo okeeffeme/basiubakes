@@ -1,0 +1,66 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    
+    <body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Reine de Saba</h1>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>3 ounces semisweet chocolate</li>
+                <li>1 ounce unsweetened chocolate</li>
+                <li>2 tablespoons dark rum or strong coffee</li>
+                <li>.5 cup unsalted butter, at room temperature</li>
+                <li>.5 cup granulated sugar</li>
+                <li>3 egg yolks</li>
+                <li>3 egg whites</li>
+                <li>.25 teaspoon cream of tartar</li>
+                <li>1 pinch salt</li>
+                <li>2 tablespoons granulated sugar</li>
+                <li>.3 cup blanched almond (pulverized in blender or food processor with 2 tablespoons granulated sugar)</li>
+                <li>.25 teaspoon almond extract</li>
+                <li>.5 cup cake flour</li>
+            </ul>
+        </div>
+        <button id="panel">Change Pan Size</button>
+        <div class="convert" style="display: none">
+            <div class="original">
+                <h3>Original Pan</h3>
+                <form id="formA">
+                    <input type="radio" name="type" value="square">Square
+                    <input type="radio" name="type" value="round" checked>Round<br>
+                    <span class="variable">Diameter <input type='number' name='r1' value='8'></span>
+                </form>
+            </div>
+            <div class="new">
+                <h3>New Pan</h3>
+                <form id="formB">
+                    <input type="radio" name="type" value="square" checked>Square
+                    <input type="radio" name="type" value="round">Round<br>
+                    <span class="variable"><input type="number" name="x"> x <input type="number" name="y"></span>
+                </form>
+            </div>
+            <button id="run">Convert Recipe</button> 
+        </div>
+        <br>
+        <div>
+            <h3>Directions</h3>
+            <p>Preheat oven to 350 degrees Fahrenheit. Set the oven rack in lower middle level.</p>
+            <p>In a saucepan over low heat, melt the chocolate into the rum or coffee. Set aside. </p>
+            <p>In a mixing bowl, cut butter into pieces and cream it. When soft and fluffy, add sugar and beat 1 minute. Beat in egg yolks until well blended. </p>
+            <p>In another bowl, beat egg whites until foamy. Beat in cream of tartar and salt and continue beating until soft peaks are formed. Gradually beat in 2 tablespoons sugar and continue beating until stiff, shiny peaks are formed. </p>
+            <p>Blend melted chocolate and coffee or rum into yolk mixture, then add almonds and almond extract.</p>
+            <p>Stir a quarter of the egg whites into the chocolate using a rubber spatula. Scoop the rest of the whites over chocolate and, alternating with sprinkles of flour, rapidly and delicately fold in the egg whites.</p>
+            <p>Turn batter into buttered and floured 8-inch-diameter round cake pan, tilting it in all directions up to the rim all around.</p>
+            <p>Set tin into preheated oven. Bake 25 minutes.</p>
+            <p>Cake is done when puffed to the top and a toothpick inserted 2 to 3 inches from edge comes out clean. The center should move slightly when the pan is gently shaken. Remove pan to a rack and let cool 15 minutes. Unmold onto rack. Let cool 2 hours before storing or icing.</p>    
+    </div>
+        
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="final.js"></script>
+    </div>
+    </body>
+</html>

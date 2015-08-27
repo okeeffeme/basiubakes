@@ -1,0 +1,87 @@
+body {
+    font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
+    line-height: 150%;
+    font-size: 72%;
+    color: #6f6f6f;
+}
+
+h1 {
+    font-size: 2.4em !important;
+    margin: 5px 0 20px 0px;
+}
+
+h3 {
+    font-size: 1.4em !important;
+    margin: 5px 0px;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+.wrapper {
+    width: 70%;
+    padding: 30px 60px;
+}
+
+button{
+    padding: 5px 10px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 2px;
+    color: aliceblue;
+    background-color: #a1dbdb;
+}
+
+button:hover {
+    background-color: #89c1c1;
+}
+
+#run:hover {
+    background-color: aliceblue;
+    color: #89c1c1;
+
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxcontainer {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.convert {
+/*    position: absolute;*/
+/*    left: 0;*/
+    display: inline;
+    width: 100%;
+    background-color: #89c1c1;
+    color: aliceblue;
+    margin: 10px 0;
+    padding: 20px 40px;
+}
+
+.convert .variable input{
+    margin: 10px 5px;
+    width: 80px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: none;
+    border-radius: 1px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    display: none;
+    margin: 0; 
+}
+
+#panel {
+    margin-bottom: 10px;
+}
